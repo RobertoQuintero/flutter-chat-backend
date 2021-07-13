@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
   "nombre":"Roberto Carlos",
-  "email":"test@test.com",
+  "email":"test51@test.com",
   "password":"123456"
 }
 
@@ -26,3 +26,10 @@ x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MGU2MDkyNjZiM2U1ODMzYj
   "email":"test@test.com",
   "password":"123456"
 }
+###
+
+GET http://localhost:3000/api/usuarios?desde=2
+Content-Type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MGU2MDkyNjZiM2U1ODMzYjI3NjczM2MiLCJpYXQiOjE2MjYwNDg1NDksImV4cCI6MTYyNjEzNDk0OX0.-oSL7NXPdnxTfrgc5V8eOO4DBRA0jb7bJFZV7Y4vL7M
+
+
